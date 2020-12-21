@@ -42,6 +42,15 @@
             <version>1.9.2</version>
             <scope>${aspectj.version}}</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.30</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <reporting>
