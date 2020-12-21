@@ -24,7 +24,7 @@ pipeline {
                         }
                  }
     }
-
+/*
     stage('reports') {
             steps {
                 script {
@@ -38,5 +38,6 @@ pipeline {
                     }
                 }
             }
+*/
         }
     }
