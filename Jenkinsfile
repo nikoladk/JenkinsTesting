@@ -19,8 +19,9 @@ pipeline {
                         }
                     post {
                         always {
-                        bat ('docker stop chrome firefox hub')
-                        bat ('docker rm chrome firefox hub')
+                        bat ('docker-compose -f docker-compose.yml down')
+                       // bat ('docker stop chrome firefox hub')
+                       // bat ('docker rm chrome firefox hub')
                         }
                  }
     }
